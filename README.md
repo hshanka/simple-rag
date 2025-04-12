@@ -22,13 +22,13 @@ My RAG App is an AI-powered retrieval-augmented generation (RAG) application tha
 If you haven't already cloned the repo, run:
 
 ```bash
-git clone https://github.com/hsha/```nka/my-rag-app.git
+git clone https://github.com/hsha/nka/simple-rag.git
 cd my-rag-app
 ```
 
 ### 2. Build the Docker Image
 ```
-docker build -t my-rag-app .
+docker build -t simple-rag .
 ```
 This Dockerfile uses a multi-stage build:
 	•	A builder stage using python:3.9-slim to compile and build wheels for required dependencies.
@@ -36,7 +36,7 @@ This Dockerfile uses a multi-stage build:
 
 ### 3. Run the Application
 ```
-docker run -it --rm -e OPENAI_API_KEY="your_openai_api_key_here" my-rag-app
+docker run -it --rm -e OPENAI_API_KEY="your_openai_api_key_here" simple-rag
 ```
 When the container starts, you should see output similar to:
 ```
