@@ -22,8 +22,8 @@ My RAG App is an AI-powered retrieval-augmented generation (RAG) application tha
 If you haven't already cloned the repo, run:
 
 ```bash
-git clone https://github.com/hsha/nka/simple-rag.git
-cd my-rag-app
+git clone https://github.com/hshanka/simple-rag.git
+cd simple-rag
 ```
 
 ### 2. Build the Docker Image
